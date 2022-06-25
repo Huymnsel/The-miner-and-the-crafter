@@ -1,0 +1,18 @@
+// Beginning era
+-Starting tech: Punch tree: enable building tree farms on forests/jungles
+
+-Column 1:
+  +Craftworks: require Punch tree, unlock "tools"
+  +Domestication: require Punch tree
+  
+-Column 2:
+  +Building: require Craftworks
+  +Mining: require Craftworks
+  +Boatmaking: require Craftworks
+  +Farming: require Craftworks, Domestication
+  
+-Column 3:
+  +Warfare I: require Mining
+  +Metalworks: require Mining
+  +Quarry: require Mining
+  +Husbandry: require Farming
