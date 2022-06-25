@@ -1,13 +1,13 @@
 [
-	// Landfall Era
+	// Early Era
 	{
 		"columnNumber": 0,
-		"era": "Landfall era",
+		"era": "Early era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"techs": [
 			{
-				"name": "Old Earth Knowledge",
+				"name": "Punch Tree",
 				"row": 8,
 				"quote": "'Orbiting Earth in the spaceship, I saw how beautiful our planet is. People, let us preserve and increase this beauty, not destroy it!' - Yuri Gagarin",
 				"uniques": ["Starting tech"]
@@ -16,7 +16,7 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "Landfall era",
+		"era": "Early era",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
@@ -75,7 +75,7 @@
 	},
 	{
 		"columnNumber": 2,
-		"era": "Landfall era",
+		"era": "Early era",
 		"techCost": 55,
 		"buildingCost": 75,
 		"wonderCost": 185,
@@ -120,10 +120,10 @@
 			}
 		]
 	},
-	// Exploration Era
+	// Middle Era
 	{
 		"columnNumber": 3,
-		"era": "Exploration era",
+		"era": "Middle era",
 		"techCost": 105,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -188,7 +188,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Exploration era",
+		"era": "Middle era",
 		"techCost": 175,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -241,10 +241,10 @@
 			}
 		]
 	},
-	// Colonization Era
+	// Late Era
 	{
 		"columnNumber": 5,
-		"era": "Colonization era",
+		"era": "Late era",
 		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 300,
@@ -300,7 +300,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "Colonization era",
+		"era": "Late era",
 		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 400,
@@ -349,10 +349,10 @@
 			},
 		]
 	},
-	// Halcyon Era
+	// Later Late Era
 	{
 		"columnNumber": 7,
-		"era": "Halcyon era",
+		"era": "Later Late era",
 		"techCost": 780,
 		"buildingCost": 200,
 		"wonderCost": 500,
@@ -397,7 +397,7 @@
 	},
 	{
 		"columnNumber": 8,
-		"era": "Halcyon era",
+		"era": "Later Late era",
 		"techCost": 1150,
 		"buildingCost": 250,
 		"wonderCost": 625,
@@ -441,10 +441,10 @@
 			},
 		]
 	},
-	// Realization Era
+	// Provectus Era
 	{
 		"columnNumber": 9,
-		"era": "Realization era",
+		"era": "Provectus era",
 		"techCost": 1600,
 		"buildingCost": 300,
 		"wonderCost": 750,
@@ -489,7 +489,7 @@
 	},
 	{
 		"columnNumber": 10,
-		"era": "Realization era",
+		"era": "Provectus era",
 		"techCost": 2350,
 		"buildingCost": 360,
 		"wonderCost": 900,
@@ -532,10 +532,10 @@
 			},
 		]
 	},
-	// Transcendental Era
+	// Ultima Era
 	{
 		"columnNumber": 11,
-		"era": "Transcendental era",
+		"era": "Ultima era",
 		"techCost": 3100,
 		"buildingCost": 500,
 		"wonderCost": 1060,
@@ -586,7 +586,7 @@
 	},
 	{
 		"columnNumber": 12,
-		"era": "Transcendental era",
+		"era": "Ultima era",
 		"techCost": 4100,
 		"buildingCost": 500,
 		"wonderCost": 1250,
@@ -643,10 +643,10 @@
 			},
 		]
 	},
-	// Singularity Era
+	// Ultima Era
 	{
 		"columnNumber": 13,
-		"era": "Singularity era",
+		"era": "Ultima era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
