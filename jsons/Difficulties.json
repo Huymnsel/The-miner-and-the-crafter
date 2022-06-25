@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Settler", //rename into pioneer
+		"name": "Settler",
 		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 0.9,
@@ -29,7 +29,7 @@
 		"clearBarbarianCampReward": 50
 	},
 	{
-		"name": "Chieftain", //rename into nomad
+		"name": "Chieftain",
 		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 0.95,
@@ -58,7 +58,7 @@
 		"clearBarbarianCampReward": 40
 	},
 	{
-		"name": "Warlord", //rename into captain
+		"name": "Warlord",
 		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -87,7 +87,7 @@
 		"clearBarbarianCampReward": 30
 	},
 	{
-		"name": "Prince", //rename into patriot
+		"name": "Prince",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -116,7 +116,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "King", //rename into president
+		"name": "King",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -136,7 +136,7 @@
 		"aiBuildingMaintenanceModifier": 0.85,
 		"aiUnitMaintenanceModifier": 0.8,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": ["Xenobiology"],
+		"aiFreeTechs": ["Pottery"],
 		"aiMajorCivBonusStartingUnits": ["Era Starting Unit"],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.9,
@@ -145,7 +145,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Emperor", //rename into sovereign
+		"name": "Emperor",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -165,8 +165,8 @@
 		"aiBuildingMaintenanceModifier": 0.8,
 		"aiUnitMaintenanceModifier": 0.75,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": ["Xenobiology", "Habitation"],
-		"aiMajorCivBonusStartingUnits": ["Era Starting Unit", "Rover Explorer"],
+		"aiFreeTechs": ["Pottery","Animal Husbandry"],
+		"aiMajorCivBonusStartingUnits": ["Era Starting Unit", "Scout"],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.85,
 		"aisExchangeTechs": true,
@@ -174,7 +174,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Immortal", //rename into megalord
+		"name": "Immortal",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -194,13 +194,8 @@
 		"aiBuildingMaintenanceModifier": 0.65,
 		"aiUnitMaintenanceModifier": 0.65,
 		"aiUnitSupplyModifier": 0.4,
-		"aiFreeTechs": ["Xenobiology", "Habitation", "Xenogeology"],
-		"aiMajorCivBonusStartingUnits": [
-			"Worker",
-			"Rover Explorer",
-			"Era Starting Unit",
-			"Era Starting Unit"
-		],
+		"aiFreeTechs": ["Pottery","Animal Husbandry","Mining"],
+		"aiMajorCivBonusStartingUnits": ["Worker", "Scout", "Era Starting Unit", "Era Starting Unit"],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.75,
 		"aisExchangeTechs": true,
@@ -208,7 +203,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Deity", //rename into transcendent
+		"name": "Deity",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -228,20 +223,8 @@
 		"aiBuildingMaintenanceModifier": 0.5,
 		"aiUnitMaintenanceModifier": 0.5,
 		"aiUnitSupplyModifier": 0.5,
-		"aiFreeTechs": [
-			"Xenobiology",
-			"Habitation",
-			"Xenogeology",
-			"Engineering"
-		],
-		"aiMajorCivBonusStartingUnits": [
-			"Colonizer",
-			"Worker",
-			"Rover Explorer",
-			"Era Starting Unit",
-			"Era Starting Unit",
-			"Era Starting Unit"
-		],
+		"aiFreeTechs": ["Pottery","Animal Husbandry","Mining","The Wheel"],
+		"aiMajorCivBonusStartingUnits": ["Settler", "Worker", "Scout", "Era Starting Unit", "Era Starting Unit", "Era Starting Unit"],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,
