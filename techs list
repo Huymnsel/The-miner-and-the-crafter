@@ -16,4 +16,4 @@
   +Warfare I: require Mining
   +Metalworks: require Mining
   +Quarry: require Mining
-  +Domestication: require Farming
+  +Domestication: require Husbandry, Farming
