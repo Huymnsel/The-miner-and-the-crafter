@@ -17,3 +17,7 @@
   +Metalworks: require Mining
   +Quarry: require Mining
   +Domestication: require Husbandry, Farming
+
+// Exploration era
+-Column 4:
+  +
