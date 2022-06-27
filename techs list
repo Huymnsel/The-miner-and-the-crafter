@@ -5,6 +5,7 @@
 -Column 1:
   +Craftworks: require Punch tree, unlock "tools"
   +Husbandry: require Punch tree
+  +Writing: require Punch tree
   
 -Column 2:
   +Building: require Craftworks
@@ -13,7 +14,7 @@
   +Farming: require Craftworks
   
 -Column 3:
-  +Warfare I: require Mining
+  +Early Warfare: require Mining
   +Metalworks: require Mining
   +Quarry: require Mining
   +Domestication: require Husbandry, Farming
@@ -21,3 +22,10 @@
 // Exploration era
 -Column 4:
   +
+
+-Column 5:
+  +Sculpture: require Quarry
+
+-Column 6:
+  +Advanced Warfare: require Early Warfare
+  +Horse Riding: require Domestication
