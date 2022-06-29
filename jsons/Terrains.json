@@ -546,11 +546,11 @@
     "uniques": ["Occurs at temperature between [0.8] and [1] and humidity between [0] and [0.2]",
 		"[+1] to Fertility for Map Generation",
 		"A Region is formed with at least [20]% [Nether wastes] tiles, with priority [2]",
-		"A Region can not contain more [Crimson] tiles than [Nether wastes] tiles",
 		"Considered [Undesirable] when determining start locations",
 		"Considered [Production] when determining start locations <in [Tundra] Regions>",
 		"Considered [Production] when determining start locations <in [Desert] Regions>",
 		"Considered [Production] when determining start locations <in [Hybrid] Regions>",
+		"Must not be on [3] largest landmasses",
 		"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 },
 {
@@ -561,7 +561,9 @@
     "movementCost": 1,
     "RGB": [60,0,0],
     "uniques": ["Occurs at temperature between [0.7] and [1] and humidity between [0.2] and [0.3]",
+		"Occurs in groups of [10] to [10] tiles",
 		"[+1] to Fertility for Map Generation",
+		"A Region can not contain more [Crimson] tiles than [Nether wastes] tiles",
 		"Considered [Undesirable] when determining start locations",
 		"Considered [Production] when determining start locations <in [Tundra] Regions>",
 		"Considered [Production] when determining start locations <in [Desert] Regions>",
@@ -603,6 +605,11 @@
 	"movementCost": 1,
 	"RGB": [226,156,34],
 	"uniques": ["Occurs at temperature between [0.2] and [0.4] and humidity between [0.5] and [0.6]",
-		"Always Fertility [-1] for Map Generation"]
+		"Always Fertility [-1] for Map Generation",
+		"Occurs in groups of [15] to [20] tiles",
+		"Considered [Undesirable] when determining start locations",
+		"Considered [Production] when determining start locations <in [Tundra] Regions>",
+		"Considered [Production] when determining start locations <in [Desert] Regions>",
+		"Considered [Production] when determining start locations <in [Hybrid] Regions>"]
 }
 ]
