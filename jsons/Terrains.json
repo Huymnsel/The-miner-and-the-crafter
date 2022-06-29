@@ -51,14 +51,13 @@
 		"movementCost": 1,
 		"RGB": [168,185,102],
 		"uniques": ["Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
-			    "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+			    "Occurs at temperature between [-0.4] and [0.2] and humidity between [0.4] and [0.6]",
 			    "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
 			    "Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
 			    "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
 			    "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
 			    "Occurs at temperature between [0.8] and [0.9] and humidity between [0.4] and [0.6]",
 			    "Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
-			    "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
 				"[+4] to Fertility for Map Generation",
 				"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
 				"A Region can not contain more [Grassland] tiles than [Plains] tiles",
@@ -557,7 +556,8 @@
 {
     "name": "Crimson",
     "type": "Land",
-    "production": 2,
+    "production": 1,
+	"gold": 1,
     "movementCost": 1,
     "RGB": [60,0,0],
     "uniques": ["Occurs at temperature between [0.7] and [1] and humidity between [0.2] and [0.3]",
@@ -572,6 +572,7 @@
 	"name": "Warped",
 	"type": "Land",
 	"production": 1,
+	"food": 1,
 	"movementCost": 1,
 	"RGB": [72,130,108],
 	"uniques": ["Occurs at temperature between [0.7] and [1] and humidity between [0.3] and [0.4]",
@@ -580,5 +581,28 @@
 		"Considered [Production] when determining start locations <in [Tundra] Regions>",
 		"Considered [Production] when determining start locations <in [Desert] Regions>",
 		"Considered [Production] when determining start locations <in [Hybrid] Regions>"]
+},
+{
+	"name": "Soul Sand valley",
+	"type": "Land",
+	"production": 1,
+	"movementCost": 2,
+	"RGB": [99,104,101],
+	"uniques": ["Occurs at temperature between [0.2] and [0.4] and humidity between [0.4] and [0.5]",
+		"Always Fertility [-1] for Map Generation",
+		"Considered [Undesirable] when determining start locations",
+		"Considered [Production] when determining start locations <in [Tundra] Regions>",
+		"Considered [Production] when determining start locations <in [Desert] Regions>",
+		"Considered [Production] when determining start locations <in [Hybrid] Regions>"]
+},
+{
+	"name": "Mesa",
+	"type": "Land",
+	"production": 1,
+	"gold": 3,
+	"movementCost": 1,
+	"RGB": [226,156,34],
+	"uniques": ["Occurs at temperature between [0.2] and [0.4] and humidity between [0.5] and [0.6]",
+		"Always Fertility [-1] for Map Generation"]
 }
 ]
