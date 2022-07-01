@@ -26,7 +26,7 @@
 		"RGB": [97,171,58],
 		"uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
 			    "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
-			    "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+			    "Occurs at temperature between [-0.3] and [0.5] and humidity between [0.6] and [0.8]",
 			    "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
 			    "Occurs at temperature between [0.9] and [1] and humidity between [0.4] and [0.9]",
 			    "Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
@@ -611,5 +611,20 @@
 		"Considered [Production] when determining start locations <in [Tundra] Regions>",
 		"Considered [Production] when determining start locations <in [Desert] Regions>",
 		"Considered [Production] when determining start locations <in [Hybrid] Regions>"]
+},
+{
+	"name": "Shroom",
+	"type": "Land",
+	"food": 3,
+	"movementCost": 1,
+	"RGB": [132,66,121],
+	"uniques": ["Occurs at temperature between [-0.5] and [-0.3] and humidity between [0.6] and [0.8]",
+		"[+2] to Fertility for Map Generation",
+		"Occurs in groups of [15] to [18] tiles",
+		"Considered [Desirable] when determining start locations",
+		"Considered [Food] when determining start locations <in [Tundra] Regions>",
+		"Considered [Food] when determining start locations <in [Desert] Regions>",
+		"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+		"Must not be on [5] largest landmasses"]
 }
 ]
