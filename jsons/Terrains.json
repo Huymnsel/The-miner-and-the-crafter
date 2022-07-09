@@ -544,13 +544,12 @@
     "movementCost": 1,
     "RGB": [173,14,48],
     "uniques": ["Occurs at temperature between [0.8] and [1] and humidity between [0] and [0.2]",
-		"[+1] to Fertility for Map Generation",
-		"A Region is formed with at least [20]% [Nether wastes] tiles, with priority [2]",
+		"Always Fertility [-1] for Map Generation",
+		"A Region is formed with at least [20]% [Nether wastes] tiles, with priority [1]",
 		"Considered [Undesirable] when determining start locations",
 		"Considered [Production] when determining start locations <in [Tundra] Regions>",
 		"Considered [Production] when determining start locations <in [Desert] Regions>",
 		"Considered [Production] when determining start locations <in [Hybrid] Regions>",
-		"Must not be on [3] largest landmasses",
 		"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 },
 {
