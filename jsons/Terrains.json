@@ -536,6 +536,7 @@
 		"weight": 10
 	}
 */
+
 // Mod's BASE TERRAINS
 {
     "name": "Nether wastes",
@@ -625,5 +626,25 @@
 		"Considered [Food] when determining start locations <in [Desert] Regions>",
 		"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 		"Must not be on [5] largest landmasses"]
+},
+
+// Mod's TERRAIN FEATURES
+{
+	"name": "Crimson Forest",
+	"type": "TerrainFeature",
+	"production": 1,
+	"food": 1,
+	"movementCost": 2,
+	"unbuildable": true,
+	"defenceBonus": 0.25,
+	"occursOn": ["Crimson"],
+	"uniques": ["Rough terrain","Vegetation",
+				"Provides a one-time Production bonus to the closest city when cut down",
+				"Blocks line-of-sight from tiles at same elevation",
+				"[15]% Chance to be destroyed by nukes",
+				"A Region is formed with at least [10]% [Crimson Forest] tiles, with priority [3]",
+				"Considered [Desirable] when determining start locations",
+				"Considered [Production] when determining start locations",
+				"Considered [Food] when determining start locations <in [Crimson] Regions>"]
 }
 ]
