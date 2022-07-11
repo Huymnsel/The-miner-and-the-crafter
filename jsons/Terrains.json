@@ -639,12 +639,12 @@
 	"defenceBonus": 0.25,
 	"occursOn": ["Crimson"],
 	"uniques": ["Rough terrain","Vegetation",
-				"Provides a one-time Production bonus to the closest city when cut down",
-				"Blocks line-of-sight from tiles at same elevation",
-				"[15]% Chance to be destroyed by nukes",
-				"A Region is formed with at least [10]% [Crimson Forest] tiles, with priority [3]",
-				"Considered [Desirable] when determining start locations",
-				"Considered [Production] when determining start locations",
-				"Considered [Food] when determining start locations <in [Crimson] Regions>"]
+		"Provides a one-time Production bonus to the closest city when cut down",
+		"Blocks line-of-sight from tiles at same elevation",
+		"[15]% Chance to be destroyed by nukes",
+		"A Region is formed with at least [10]% [Crimson Forest] tiles, with priority [3]",
+		"Considered [Desirable] when determining start locations",
+		"Considered [Production] when determining start locations",
+		"Considered [Food] when determining start locations <in [Crimson] Regions>"]
 }
 ]
