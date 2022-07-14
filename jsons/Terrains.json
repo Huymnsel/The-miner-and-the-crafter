@@ -625,7 +625,25 @@
 		"Considered [Food] when determining start locations <in [Tundra] Regions>",
 		"Considered [Food] when determining start locations <in [Desert] Regions>",
 		"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-		"Must not be on [5] largest landmasses"]
+		"Must not be on [5] largest landmasses",
+		"Must be adjacent to [1] to [6] [Coast] tiles",
+		"Neighboring tiles except [Shroom] will convert to [Coast]"]
+},
+{
+	"name": "The End",
+	"type": "NaturalWonder",
+	"gold": 5,
+	"movementCost": 2,
+	"overrideStats": true,
+	"occursOn": ["Tundra"],
+	"uniques": ["Occurs in groups of [4] to [4] tiles",
+		"Must be adjacent to [0] [Ice] tiles",
+		"Must be adjacent to [1] to [6] [Coast] tiles",
+		"Neighboring tiles except [The End] will convert to [Coast]"],
+	"turnsInto": "Tundra",
+	"impassable": false,
+	"unbuildable": true,
+	"weight": 10
 },
 
 // Mod's TERRAIN FEATURES
