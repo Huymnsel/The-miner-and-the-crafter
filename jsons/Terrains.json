@@ -664,5 +664,18 @@
 		"Considered [Desirable] when determining start locations",
 		"Considered [Production] when determining start locations",
 		"Considered [Food] when determining start locations <in [Crimson] Regions>"]
+},
+
+// Mod's WONDERS
+{
+	"name": "Bastion",
+	"type": "NaturalWonder",
+	"gold": 4,
+	"occursOn": ["Nether wastes","Crimson","Warped","Soul Sand valley"],
+	"uniques": ["Must be adjacent to [0] [Water] tiles"],
+	"turnsInto": "Mountain",
+	"impassable": false,
+	"unbuildable": true,
+	"weight": 5
 }
 ]
