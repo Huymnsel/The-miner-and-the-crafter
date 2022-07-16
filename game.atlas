@@ -46,37 +46,44 @@ TileSets/CubedHexagon/Tiles/Mountain
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/CubedHexagon/Tiles/Shroom
+TileSets/CubedHexagon/Tiles/Nether Fortress
   rotate: false
   xy: 148, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/CubedHexagon/Tiles/Snow
+TileSets/CubedHexagon/Tiles/Shroom
   rotate: false
   xy: 292, 68
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/CubedHexagon/Tiles/Soul Sand valley
+TileSets/CubedHexagon/Tiles/Snow
   rotate: false
   xy: 292, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/CubedHexagon/Tiles/The End
+TileSets/CubedHexagon/Tiles/Soul Sand valley
   rotate: false
   xy: 364, 68
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/CubedHexagon/Tiles/Warped
+TileSets/CubedHexagon/Tiles/The End
   rotate: false
   xy: 364, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/CubedHexagon/Tiles/Warped
+  rotate: false
+  xy: 436, 68
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
